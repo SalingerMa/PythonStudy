@@ -5,8 +5,6 @@ import time
 import tarfile
 import os
 
-from ftplib import FTP
-
 def ftpconnect(host, username, password):
     ftp = FTP()
     # ftp.set_debuglevel(2)
