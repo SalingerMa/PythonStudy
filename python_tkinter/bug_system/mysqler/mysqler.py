@@ -3,7 +3,7 @@ import pymysql
 
 db_host = 'localhost'
 db_user = 'root'
-db_pwd = 'xls1208'
+db_pwd = '123456'
 db_data = 'bug_system'
 
 db = pymysql.connect(db_host, db_user, db_pwd, db_data, charset="utf8")
