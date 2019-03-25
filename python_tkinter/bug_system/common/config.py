@@ -13,11 +13,11 @@ class Color(Enum):
     color3 = 'yellow'
     color4 = 'green'
 
-class Table(Enum):
-    sub_table = 'submit_bug_of_this_week'
-    rest_table = 'rest_bug_of_this_week'
-    old_rest_table = 'rest_bug_of_last_week'
+class TableName(Enum):
+    table1 = 'up_table'
+    table2 = 'rest_bug_of_this_week'
+    table3 = 'rest_bug_of_last_week'
 
 if __name__ == '__main__':
-    print(Table['sub_table'].value)
+    print(TableName['sub_table'].value)
 

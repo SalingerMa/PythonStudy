@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import matplotlib.pyplot as plt
-from bug_system.mysqler.mysqler import SQL
+from common.mysqler import SQL
 from matplotlib.font_manager import FontProperties
-from bug_system.config import Name,Color
+from common.config import Name,Color
 
 class Data:
     @classmethod

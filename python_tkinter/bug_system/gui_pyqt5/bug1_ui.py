@@ -17,8 +17,6 @@ class Ui_MainWindow(object):
         self.submit_table = QtWidgets.QTableWidget(self.centralwidget)
         self.submit_table.setGeometry(QtCore.QRect(80, 21, 971, 661))
         self.submit_table.setObjectName("submit_table")
-        self.submit_table.setColumnCount(2)
-        self.submit_table.setRowCount(2)
         item = QtWidgets.QTableWidgetItem()
         self.submit_table.setVerticalHeaderItem(0, item)
         item = QtWidgets.QTableWidgetItem()
@@ -40,14 +38,8 @@ class Ui_MainWindow(object):
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
-        _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
-        item = self.submit_table.verticalHeaderItem(0)
-        item.setText(_translate("MainWindow", "r1"))
-        item = self.submit_table.verticalHeaderItem(1)
-        item.setText(_translate("MainWindow", "r2"))
-        item = self.submit_table.horizontalHeaderItem(0)
-        item.setText(_translate("MainWindow", "New Column"))
-        item = self.submit_table.horizontalHeaderItem(1)
-        item.setText(_translate("MainWindow", "B"))
+        pass
+        # _translate = QtCore.QCoreApplication.translate
+        # MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+
 
