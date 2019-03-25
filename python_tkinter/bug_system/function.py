@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+<<<<<<< HEAD
 from bug_system.mysqler.mysqler import SQL
 
 class Common:
@@ -21,3 +22,5 @@ class Common:
 if __name__ == '__main__':
     a = Common.get_table_column('submit_bug_of_this_week')
     print(a)
+=======
+>>>>>>> 7d83a6a9b33b138d28fa022ac530527380262fc8

@@ -13,7 +13,12 @@ class SQL:
 
     @classmethod
     def insert_bookinfo(cls, xs_name, xs_author, bookid, category, status, updatetime):
+<<<<<<< HEAD
         sql = ''
+=======
+        sql = "INSERT INTO ddbook(`xs_name`,`xs_author`, `bookid`, `category`, `status`, `updatetime`) VALUES(%(xs_name)s, %(xs_author)s, %(bookid)s, %(category)s , %(status)s, %(updatetime)s)"
+
+>>>>>>> 7d83a6a9b33b138d28fa022ac530527380262fc8
         value = {
             'xs_name': xs_name,
             'xs_author': xs_author,
@@ -26,6 +31,7 @@ class SQL:
         db.commit()
 
     @classmethod
+<<<<<<< HEAD
     def select(cls, table):
         sql = "SELECT * FROM %s" % table
         cursor.execute(sql)
@@ -37,4 +43,13 @@ class SQL:
         return cursor.fetchall()
 
 # a = SQL.select_column('submit_bug_of_this_week')
+=======
+    def select(cls, table, ):
+        sql = "SELECT * FROM %s" % table
+        cursor.execute(sql)
+        return cursor.fetchall()
+
+
+# a = SQL.select('up_table')
+>>>>>>> 7d83a6a9b33b138d28fa022ac530527380262fc8
 # print(a)
