@@ -1,0 +1,23 @@
+type = user
+count = 1
+speed = 1.0
+start data >>
+
+LaunchActivity(com.wali.live,com.wali.live.main.LiveMainActivity)
+UserWait(2000)
+
+#点击搜索框
+Tap(485,128,1000)
+UserWait(1000)
+
+#输入字母“yyb”
+DispatchString(yyb)
+UserWait(1000)
+
+#点击搜索
+Tap(1014,134,1000)
+UserWait(1000)
+
+#点击返回键返回首页
+DispatchPress(KEYCODE_BACK)
+UserWait(1000)
