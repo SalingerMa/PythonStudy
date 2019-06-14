@@ -1,0 +1,60 @@
+ANR in com.wali.live
+PID: 4118
+Reason: executing service com.wali.live/.service.PacketProcessService
+ package com.wali.live version Code: 508100 version Name: 5.8.100 cur loop is : Looper (main, tid 2) {3fa54cb}
+---------- Dump MessageQueue on Looper (main, tid 2) {3fa54cb}----------
+Running message is { when=-8s613ms callback=android.view.Choreographer$FrameDisplayEventReceiver target=android.view.Choreographer$FrameHandler planTime=1560507631328 dispatchTime=1560507631451 finishTime=0 }
+Message 0: { when=-7s991ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507623842 dispatchTime=0 finishTime=0 }
+Message 1: { when=-7s476ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507624357 dispatchTime=0 finishTime=0 }
+Message 2: { when=-7s116ms callback=com.wali.live.h.o target=android.os.Handler planTime=1560507624717 dispatchTime=0 finishTime=0 }
+Message 3: { when=-6s636ms callback=android.app.LoadedApk$ServiceDispatcher$RunConnection target=android.app.ActivityThread$H planTime=1560507625197 dispatchTime=0 finishTime=0 }
+Message 4: { when=-6s478ms callback=com.wali.live.main.l target=android.os.Handler planTime=1560507625355 dispatchTime=0 finishTime=0 }
+Message 5: { when=-5s910ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507625923 dispatchTime=0 finishTime=0 }
+Message 6: { when=-5s909ms callback=com.wali.live.main.bm target=android.os.Handler planTime=1560507625925 dispatchTime=0 finishTime=0 }
+Message 7: { when=-5s702ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507626131 dispatchTime=0 finishTime=0 }
+Message 8: { when=-5s597ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507626236 dispatchTime=0 finishTime=0 }
+Message 9: { when=-5s309ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507626524 dispatchTime=0 finishTime=0 }
+Message 10: { when=-5s298ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507626535 dispatchTime=0 finishTime=0 }
+Message 11: { when=-5s291ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507626542 dispatchTime=0 finishTime=0 }
+Message 12: { when=-5s230ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507626603 dispatchTime=0 finishTime=0 }
+Message 13: { when=-5s224ms callback=android.app.-$Lambda$FilBqgnXJrN9Mgyks1XHeAxzSTk target=android.app.ActivityThread$H planTime=1560507626609 dispatchTime=0 finishTime=0 }
+Message 14: { when=-5s218ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507626615 dispatchTime=0 finishTime=0 }
+Message 15: { when=-5s216ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507626617 dispatchTime=0 finishTime=0 }
+Message 16: { when=-5s187ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507626646 dispatchTime=0 finishTime=0 }
+Message 17: { when=-5s160ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507626673 dispatchTime=0 finishTime=0 }
+Message 18: { when=-4s841ms what=1 obj=android.os.AsyncTask$AsyncTaskResult@d772a7 target=android.os.AsyncTask$InternalHandler planTime=1560507626992 dispatchTime=0 finishTime=0 }
+Message 19: { when=-4s607ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507627226 dispatchTime=0 finishTime=0 }
+Message 20: { when=-4s606ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507627227 dispatchTime=0 finishTime=0 }
+Message 21: { when=-3s734ms callback=com.wali.live.main.o target=android.os.Handler planTime=1560507628099 dispatchTime=0 finishTime=0 }
+Message 22: { when=-2s574ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507629259 dispatchTime=0 finishTime=0 }
+Message 23: { when=-1s949ms what=0 obj={"status":0,"message":"","ak":"LQ7Vplxp654UlPP8UOvGSQDj","token":"be6eS7h2BCYEXUdLt+nr8mF1jAX7lEINltEON6P8lSW28naCZ+JzabU3uuHRey9uitCRC\/ZyXuBViOwdMjaRa9STX54N46\/lwKJAUsdMeWJKj2xoNqHNOGE8t67yUl70lgdsZoSivqX\/XJA2hujfijNG0nmsY7w+HxoZUwhSUQ","uid":"664639271","sk":"2898moToHutH3UiBNmrPqSAfrDwW4MuD","user_permission":-1,"ak_permission":-1} target=com.baidu.lbsapi.auth.i planTime=1560507629884 dispatchTime=0 finishTime=0 }
+Message 24: { when=-1s914ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507629919 dispatchTime=0 finishTime=0 }
+Message 25: { when=-1s913ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507629920 dispatchTime=0 finishTime=0 }
+Message 26: { when=-1s600ms what=1 obj=android.os.AsyncTask$AsyncTaskResult@7ae06bb target=android.os.AsyncTask$InternalHandler planTime=1560507630233 dispatchTime=0 finishTime=0 }
+Message 27: { when=-1s520ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507630313 dispatchTime=0 finishTime=0 }
+Message 28: { when=-1s520ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507630314 dispatchTime=0 finishTime=0 }
+Message 29: { when=-1s497ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507630336 dispatchTime=0 finishTime=0 }
+Message 30: { when=-1s200ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507630633 dispatchTime=0 finishTime=0 }
+Message 31: { when=-1s200ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507630634 dispatchTime=0 finishTime=0 }
+Message 32: { when=-1s177ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507630656 dispatchTime=0 finishTime=0 }
+Message 33: { when=-1s171ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507630662 dispatchTime=0 finishTime=0 }
+Message 34: { when=-1s169ms callback=rx.internal.schedulers.ScheduledAction target=android.os.Handler planTime=1560507630665 dispatchTime=0 finishTime=0 }
+Message 35: { when=-1s61ms callback=android.app.LoadedApk$ServiceDispatcher$RunConnection target=android.app.ActivityThread$H planTime=1560507630772 dispatchTime=0 finishTime=0 }
+Message 36: { when=-1s61ms callback=android.app.LoadedApk$ServiceDispatcher$RunConnection target=android.app.ActivityThread$H planTime=1560507630773 dispatchTime=0 finishTime=0 }
+Message 37: { when=-1s31ms callback=android.view.ViewRootImpl$4 target=android.view.ViewRootImpl$ViewRootHandler planTime=1560507630802 dispatchTime=0 finishTime=0 }
+Message 38: { when=-1s14ms what=1 obj=android.os.AsyncTask$AsyncTaskResult@ac807d8 target=android.os.AsyncTask$InternalHandler planTime=1560507630819 dispatchTime=0 finishTime=0 }
+Message 39: { when=-949ms what=1 obj=android.os.AsyncTask$AsyncTaskResult@29f5731 target=android.os.AsyncTask$InternalHandler planTime=1560507630884 dispatchTime=0 finishTime=0 }
+Message 40: { when=-388ms what=256 obj=SignalStrength: 99 0 -120 -160 -120 -1 -1 99 2147483647 2147483647 2147483647 2147483647 0 2147483647 gsm|lte target=android.telephony.PhoneStateListener$1 planTime=1560507631445 dispatchTime=0 finishTime=0 }
+Message 41: { when=-307ms callback=android.app.LoadedApk$ServiceDispatcher$RunConnection target=android.app.ActivityThread$H planTime=1560507631526 dispatchTime=0 finishTime=0 }
+Message 42: { when=-261ms callback=android.support.v7.app.AppCompatDelegateImplV9$1 target=android.view.ViewRootImpl$ViewRootHandler planTime=1560507631572 dispatchTime=0 finishTime=0 }
+Message 43: { when=-255ms callback=android.app.LoadedApk$ServiceDispatcher$RunConnection target=android.app.ActivityThread$H planTime=1560507631578 dispatchTime=0 finishTime=0 }
+Message 44: { when=-213ms callback=com.wali.live.main.w target=android.os.Handler planTime=1560507631621 dispatchTime=0 finishTime=0 }
+Message 45: { when=-120ms what=0 target=org.greenrobot.eventbus.HandlerPoster planTime=1560507631713 dispatchTime=0 finishTime=0 }
+Message 46: { when=-39ms what=1 obj=android.os.AsyncTask$AsyncTaskResult@ac5397 target=android.os.AsyncTask$InternalHandler planTime=1560507631794 dispatchTime=0 finishTime=0 }
+Message 47: { when=-36ms callback=com.wali.live.main.fragment.l target=android.os.Handler planTime=1560507631797 dispatchTime=0 finishTime=0 }
+Message 48: { when=-35ms callback=com.wali.live.main.fragment.l target=android.os.Handler planTime=1560507631798 dispatchTime=0 finishTime=0 }
+Message 49: { when=-35ms callback=com.wali.live.main.fragment.l target=android.os.Handler planTime=1560507631798 dispatchTime=0 finishTime=0 }
+(Total messages: 50, polling=false, quitting=false)
+-------------------------- END --------------------------
+
+(dump anr info success and took 3ms)
