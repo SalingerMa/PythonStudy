@@ -4,4 +4,4 @@
 注意配置要大写
 """
 
-DEBUG = True
+DEBUG = False
